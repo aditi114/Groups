@@ -13,7 +13,7 @@ import user3 from './images/user3.png';
 import user4 from './images/user4.png';
 
 
-function App() {
+function User() {
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -31,8 +31,8 @@ function App() {
         </a>
       </header> */}
       
-      <Header></Header>
-      <Intro></Intro><div class="extra">
+      <Header></Header><br></br><br></br>
+      <Intro></Intro>
       <div className="Post"><Posts className="Post1" position='Post1' category='✍️ Article'
        title='What if famous brands had regular fonts? Meet RegulaBrands!'
        content= 'I’ve worked in UX for the better part of a decade. From now on, I plan to rei…'
@@ -60,7 +60,6 @@ function App() {
             username="Joseph Gray"
             userlogo={user4}
          ></Job>
-         </div>
          <br></br>
          </div> 
         
@@ -72,4 +71,4 @@ function App() {
   );
 }
 
-export default App;
+export default User;

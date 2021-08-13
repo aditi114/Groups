@@ -1,13 +1,599 @@
-.App {
-  text-align: center;
+*{
+  font-family: IBM Plex Sans;
+}
+.app{
+  position: absolute;
+width: 1440px;
+height: 2477px;
+}
+.Header
+{
+  position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+width: 100%;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.cname{
+  position: absolute;
+  left: 3%;
+  top: 25.17px;
+}
+/* .letterdot{
+  position: absolute;
+  left: 6%;
+  top: 10%;
+}  */
+.searchbutton{
+  position: absolute;
+width: 360px;
+height: 42px;
+left: 540px;
+top: 16px;
+border: 0px;
+background: #F2F2F2;
+border-radius: 21px;
+}
+.search{
+  position: absolute;
+left: 16.75px;
+
+top: 13.22px;
+
+}
+.account{
+  position: absolute;
+width: 25%;
+height: 3%;
+left: 80.625%;
+top: 33%;
+font-style: normal;
+font-size: 16px;
+color: #2E2E2E;
+}
+.account button{
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+  background-color: white;
+}
+.headarrow{
+  height: 1%;
+  width: 5px;
+  position: absolute;
+  left: 190px;
+  top:12px;
+}
+.Intro{
+  position: absolute;
+width: 1440px;
+height: 440px;
+left: 0px;
+top: 72px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%); 
+}
+.modal-content{
+  position: absolute;
+width: 736px;
+height: 556px;
+top: 5%;
+background: #FFFFFF;
+box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+.modal-dialog{
+  width: 736px;
+  height: 513px;  
+}
+.accsign{
+  position: absolute;
+  left: 410px;
+}
+.alert{
+  position: absolute;
+width: 736px;
+height: 50px;
+left: 0px;
+top: 0px;
+background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+}
+.grpname{
+  position: absolute;
+width: 320px;
+height: 46px;
+left: 24px;
+top: 96px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px 2px 0px 0px;
+}
+.grpemail{
+  position: absolute;
+width: 320px;
+height: 46px;
+left: 24px;
+top: 142px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.accemail{
+  position: absolute;
+width: 320px;
+height: 46px;
+left: 24px;
+top: 129px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+
+}
+.grppass{
+  position: absolute;
+width: 320px;
+height: 46px;
+left: 24px;
+top: 188px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.accpass{
+  position: absolute;
+width: 320px;
+height: 46px;
+left: 24px;
+top: 174px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.grpconpass{
+  position: absolute;
+width: 320px;
+height: 46px;
+left:24px;
+top: 234px;
+background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.grpbtn{
+  position: absolute;
+width: 320px;
+height: 40px;
+left: 36px;
+top: 296px;
+
+background: #2F6CE5;
+border-radius: 20px;
+}
+.fbbtn{
+  position: absolute;
+width: 320px;
+height: 38px;
+left: 36px;
+top: 360px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.accbtn{
+  position: absolute;
+width: 320px;
+height: 38px;
+left: 36px;
+top: 239px;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.accfbtn{
+  position: absolute;
+width: 320px;
+height: 38px;
+left: 36px;
+top: 303px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+
+}
+.gbtn{
+  position: absolute;
+width: 320px;
+height: 38px;
+left: 36px;
+top: 406px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.accgbtn{
+  position: absolute;
+width: 320px;
+height: 38px;
+left: 36px;
+top: 349px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.accp{
+  position: absolute;
+width: 317px;
+height: 16px;
+left: 36px;
+top: 410px;
+font-weight: 500;
+font-size: 12px;
+text-align: center;
+}
+.tc{
+  position: absolute;
+width: 350px;
+height: 16px;
+left: 370px;
+top: 400px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+text-align: right;
+letter-spacing: -0.008em;
+opacity: 0.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sgbtn{
+  border: none;
+  background-color: white;
+  color: blue;
+  font-size: 13px;
+}
+.joinform a{
+  text-decoration: none;
+  color: white;
+}
+.acctitle{
+  position: absolute;
+  top: 98px;
+width: 173px;
+height: 31px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+}
+.bgimg{
+  position: absolute;
+width: 30%; 
+height: 270px;
+left: 399px;
+top: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.accsign{
+  position: absolute;
+width: 250px;
+height: 17px;
+left:505px;
+top: 105px;
+font-size: 13px;
+color: #3D3D3D;
+}
+.Post1{
+  
+position: absolute;
+width: 692px;
+height: 472px;
+left: 200px;
+top: 628px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+}
+
+.Post  h9{
+  font-size: 18px;
+  position: absolute;
+  left: 20px;
+  top: 240px;
+}
+.Post  h7
+{
+  position: absolute;
+  top: 275px;
+  left: 20px;
+  font-weight: bolder;
+  height: 692px;
+  width: 80%;
+  font-size: 22px;
+}
+.Post p{
+  position: absolute;
+  top: 347px;
+  left: 20px;
+  
+  font-size: 22px;
+  color:#5C5C5C;
+}
+.Post span{
+  position: absolute;
+width: 200px;
+height: 24px;
+left: 20px;
+top: 416px;
+bottom: 32px;
+font-size: 18px;
+}
+.date{
+  position: absolute;
+  top: 316px;
+  left: 44px;
+}
+.location{
+    position: absolute;
+    top: 316px;
+    left: 350px
+  
+}
+.Post button{
+  position: absolute;
+width: 652px;
+height: 38px;
+left: 20px;
+top: 352px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.Post h10{
+  position: absolute;
+left: 630px;
+top: 430px;
+bottom: 16.51%;
+font-size: 14px;
+background: #EDEEF0;
+border-radius: 2px;
+}
+.Post h11{
+  position: absolute;
+left: 500.62px;
+top: 428px;
+bottom: 16.51%;
+font-size: 14px;
+}
+.Post2{
+  position: absolute;
+  width: 692px;
+  height: 472px;
+  left: 200px;
+  top: 1116px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+
+.Other1{
+  position: absolute;
+width: 692px;
+height: 490px;
+left: 200px;
+top: 1604px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+}
+.Other2{
+  position: absolute;
+width: 692px;
+height: 269px;
+left: 200px;
+top: 2110px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+}
+ .Other2 h9{
+  font-size: 18px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.Other2 h7
+{
+  position: absolute;
+  left: 20px;
+  top: 55px;
+  height: 3px;
+  font-weight: bolder;
+}
+.Other2 h10{
+  position: absolute;
+left: 630px;
+top: 218px;
+bottom: 16.51%;
+font-size: 14px;
+background: #EDEEF0;
+border-radius: 2px;
+}
+.Other2 h11{
+  position: absolute;
+left: 500.62px;
+top: 216px;
+bottom: 16.51%;
+font-size: 14px;
+}
+.jobdate{
+  position: absolute;
+  top: 97px;
+  left: 44px;
+}
+.joblocation{
+    position: absolute;
+    top: 97px;
+    left: 350px
+  
+}
+.Other2 button{
+  position: absolute;
+width: 652px;
+height: 38px;
+left: 20px;
+top: 133px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.Other2 span{
+  position: absolute;
+width: 200px;
+height: 24px;
+left: 20px;
+top: 213px;
+font-size: 18px;
+line-height: 23px;
+}
+
+.Introinner{
+  position: absolute;
+width: 1440px;
+height: 440px;
+left: 0px;
+top: 0.1%;
+background: url(./images/Rectangle2.png);
+background-repeat:no-repeat ;
+background-size: 100% 100%;
+}
+.Introinner h2{
+  position: absolute;
+width: 378px;
+height: 47px;
+left: 13.8%;
+top: 286px;
+bottom: 107px;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FFFFFF;
+}
+.mainlocation{
+  position: absolute;
+left: 1000.75px;
+right: 8.33%;
+top: 657.5px;
+}
+
+small{
+  position: absolute;
+left: 1000.75px;
+right: 8.33%;
+top: 719.33px;
+bottom: 8.33%;
+border-bottom: solid 0.6px gray;
+}
+.dropdown{
+  position: absolute;
+left: 635px;
+right: 21px;
+top: 274px;
+bottom: -8.33%;
+width: 32px;
+font-size: 5px;
+}
+.jobd{
+  position: absolute;
+left: 635px;
+right: 21px;
+top: 67.67px;
+bottom: -8.33%;
+width: 32px;
+font-size: 5px;
+}
+.Introinner h3{
+  position: absolute;
+width: 340px;
+height: 23px;
+left: 13.8%;
+
+top: 337px;
+bottom: 80px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+nav{
+  position: absolute;
+  top: 559px;
+  left: 13.8%;
+  right: 55.5%;
+  width: 1000px;
+}
+.activeitem{
+  border-bottom: solid black 0.8px;
+}
+.joinbutton{
+  position: absolute;
+width: 125px;
+height: 36px;
+left: 899px;
+}
+/* .joinbutton p{
+  position: absolute;
+width: 75px;
+height: 20px;
+left: 1153px;
+top: 590px;
+} */
+.user{
+  position: relative;
+  left: -40.58px;
+  right: 0%;
+  top: 2%;
+
+  
+}
+.joinbutton p{
+  position: absolute;
+  left: 30.9%;
+  top: 12%;
+  
+}
+.writepost{
+  position: absolute;
+width: 133px;
+height: 36px;
+left: 750px;
+background: #EDEEF0;
+border-radius: 4px;
+}
+.postarrow{
+  position: absolute;
+  height: 10px;
+  width: 5px;
+  top:10px;
+  left: 111.42px;
+}
+@media only screen and (max-width: 768px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -22,10 +608,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
