@@ -7,7 +7,7 @@ function Other(props) {
         
         
             <div className={props.position}>
-             <img src={props.bgimg} alt="fail"></img>
+             <img className= "img-fluid" src={props.bgimg} alt="fail"></img>
              
              <div className="card-body">
              <h9>{props.category}</h9><br></br>

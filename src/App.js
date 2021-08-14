@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import './App.css';
+// import './App.css';
 import Intro from './components/Intro';
 import Posts from './components/Posts';
 import Other from './components/Other';
@@ -11,6 +11,7 @@ import user2 from './images/user2.png';
 import post3 from './images/post3.png';
 import user3 from './images/user3.png';
 import user4 from './images/user4.png';
+import post4 from './images/post4.PNG';
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       </header> */}
       
       <Header></Header>
-      <Intro></Intro><div class="extra">
+      <Intro></Intro>
+      
       <div className="Post"><Posts className="Post1" position='Post1' category='✍️ Article'
        title='What if famous brands had regular fonts? Meet RegulaBrands!'
        content= 'I’ve worked in UX for the better part of a decade. From now on, I plan to rei…'
@@ -43,8 +45,7 @@ function App() {
        content= 'I’ve worked in UX for the better part of a decade. From now on, I plan to rei…'
         username='Sarah West' userlogo={user2}
         bgimg={post2}></Posts>
-        
-          <Other color="#E56135"position="Other1" category="🗓️ Meetup"
+        <Other color="#E56135"position="Other1" category="🗓️ Meetup"
            title="Finance & Investment Elite Social Mixer @Lujiazui" 
            date="Fri, 12 Oct, 2018"
             location="Ahmedabad, India"
@@ -59,10 +60,11 @@ function App() {
             button="Apply on Timesjobs"
             username="Joseph Gray"
             userlogo={user4}
+            bgimg={post4}
          ></Job>
-         </div>
-         <br></br>
-         </div> 
+        </div>
+        <button type="button" className="button button5"><p><i class="fas fa-pencil-alt"></i></p></button>
+    
         
       
         

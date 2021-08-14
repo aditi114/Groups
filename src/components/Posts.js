@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css';
+// import '../App.css';
 
 function Posts(props) {
     // Import result is the URL of your image
@@ -7,7 +7,7 @@ function Posts(props) {
         
         
             <div className={props.position}>
-             <img src={props.bgimg} alt="fail"></img>
+             <img className="img-fluid" src={props.bgimg} alt="fail"></img>
              <div className="card-body">
              <h9>{props.category}</h9><br></br>
              <h7>{props.title}</h7>

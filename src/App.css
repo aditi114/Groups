@@ -1,482 +1,65 @@
 *{
   font-family: IBM Plex Sans;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.app{
-  position: absolute;
-width: 1440px;
-height: 2477px;
-}
-.Header
-{
-  position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
-width: 100%;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+.navbar{
+  background-color: white;
+  width: 100%;
 }
 .cname{
   position: absolute;
-  left: 3%;
-  top: 25.17px;
+left: 5.9%;
 }
-/* .letterdot{
-  position: absolute;
-  left: 6%;
-  top: 10%;
-}  */
 .searchbutton{
-  position: absolute;
-width: 360px;
-height: 42px;
-left: 540px;
-top: 16px;
-border: 0px;
-background: #F2F2F2;
-border-radius: 21px;
-}
-.search{
-  position: absolute;
-left: 16.75px;
-
-top: 13.22px;
-
+  border: none;
+  background: #F2F2F2;
+  border-radius: 21px;
 }
 .account{
-  position: absolute;
-width: 25%;
-height: 3%;
-left: 80.625%;
-top: 33%;
+
+width: 220px;
+height: 21px;
+
 font-style: normal;
+font-weight: 500;
 font-size: 16px;
+line-height: 21px;
+
+text-align: right;
+
 color: #2E2E2E;
+
 }
 .account button{
-  text-decoration: none;
-  color: blue;
-  font-weight: bolder;
   background-color: white;
+  color: blue;
 }
-.headarrow{
-  height: 1%;
-  width: 5px;
-  position: absolute;
-  left: 190px;
-  top:12px;
+.button5{
+  display: none;
 }
 .Intro{
-  position: absolute;
-width: 1440px;
-height: 440px;
-left: 0px;
-top: 72px;
-
+  
+width: 100%;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%); 
 }
-.modal-content{
+.Introinner h3{
   position: absolute;
-width: 736px;
-height: 556px;
-top: 5%;
-background: #FFFFFF;
-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
-}
-.modal-dialog{
-  width: 736px;
-  height: 513px;  
-}
-.accsign{
-  position: absolute;
-  left: 410px;
-}
-.alert{
-  position: absolute;
-width: 736px;
-height: 50px;
-left: 0px;
-top: 0px;
-background: #EFFFF4;
-border-radius: 8px 8px 0px 0px;
-}
-.grpname{
-  position: absolute;
-width: 320px;
-height: 46px;
-left: 24px;
-top: 96px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-border-radius: 2px 2px 0px 0px;
-}
-.grpemail{
-  position: absolute;
-width: 320px;
-height: 46px;
-left: 24px;
-top: 142px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-}
-.accemail{
-  position: absolute;
-width: 320px;
-height: 46px;
-left: 24px;
-top: 129px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-
-}
-.grppass{
-  position: absolute;
-width: 320px;
-height: 46px;
-left: 24px;
-top: 188px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-}
-.accpass{
-  position: absolute;
-width: 320px;
-height: 46px;
-left: 24px;
-top: 174px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-}
-.grpconpass{
-  position: absolute;
-width: 320px;
-height: 46px;
-left:24px;
-top: 234px;
-background: #F7F8FA;
-border: 1px solid #D9D9DB;
-box-sizing: border-box;
-}
-.grpbtn{
-  position: absolute;
-width: 320px;
-height: 40px;
-left: 36px;
-top: 296px;
-
-background: #2F6CE5;
-border-radius: 20px;
-}
-.fbbtn{
-  position: absolute;
-width: 320px;
-height: 38px;
-left: 36px;
-top: 360px;
-background: #FFFFFF;
-border: 0.6px solid #D9D9DB;
-box-sizing: border-box;
-border-radius: 2px;
-}
-.accbtn{
-  position: absolute;
-width: 320px;
-height: 38px;
-left: 36px;
-top: 239px;
-box-sizing: border-box;
-border-radius: 20px;
-}
-.accfbtn{
-  position: absolute;
-width: 320px;
-height: 38px;
-left: 36px;
-top: 303px;
-background: #FFFFFF;
-border: 0.6px solid #D9D9DB;
-box-sizing: border-box;
-border-radius: 2px;
-
-}
-.gbtn{
-  position: absolute;
-width: 320px;
-height: 38px;
-left: 36px;
-top: 406px;
-background: #FFFFFF;
-border: 0.6px solid #D9D9DB;
-box-sizing: border-box;
-border-radius: 2px;
-}
-.accgbtn{
-  position: absolute;
-width: 320px;
-height: 38px;
-left: 36px;
-top: 349px;
-background: #FFFFFF;
-border: 0.6px solid #D9D9DB;
-box-sizing: border-box;
-border-radius: 2px;
-}
-.accp{
-  position: absolute;
-width: 317px;
-height: 16px;
-left: 36px;
-top: 410px;
-font-weight: 500;
-font-size: 12px;
-text-align: center;
-}
-.tc{
-  position: absolute;
-width: 350px;
-height: 16px;
-left: 370px;
-top: 400px;
-font-family: IBM Plex Sans;
+width: 327px;
+height: 23px;
+left: 13.8%;
+top: 409px;
 font-style: normal;
 font-weight: normal;
-font-size: 11px;
-line-height: 16px;
-text-align: right;
-letter-spacing: -0.008em;
-opacity: 0.6;
-}
-
-.sgbtn{
-  border: none;
-  background-color: white;
-  color: blue;
-  font-size: 13px;
-}
-.joinform a{
-  text-decoration: none;
-  color: white;
-}
-.acctitle{
-  position: absolute;
-  top: 98px;
-width: 173px;
-height: 31px;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-}
-.bgimg{
-  position: absolute;
-width: 30%; 
-height: 270px;
-left: 399px;
-top: 75px;
-}
-
-.accsign{
-  position: absolute;
-width: 250px;
-height: 17px;
-left:505px;
-top: 105px;
-font-size: 13px;
-color: #3D3D3D;
-}
-.Post1{
-  
-position: absolute;
-width: 692px;
-height: 472px;
-left: 200px;
-top: 628px;
-background: #FFFFFF;
-border: 1px solid #E0E0E0;
-border-radius: 4px;
-}
-
-.Post  h9{
-  font-size: 18px;
-  position: absolute;
-  left: 20px;
-  top: 240px;
-}
-.Post  h7
-{
-  position: absolute;
-  top: 275px;
-  left: 20px;
-  font-weight: bolder;
-  height: 692px;
-  width: 80%;
-  font-size: 22px;
-}
-.Post p{
-  position: absolute;
-  top: 347px;
-  left: 20px;
-  
-  font-size: 22px;
-  color:#5C5C5C;
-}
-.Post span{
-  position: absolute;
-width: 200px;
-height: 24px;
-left: 20px;
-top: 416px;
-bottom: 32px;
-font-size: 18px;
-}
-.date{
-  position: absolute;
-  top: 316px;
-  left: 44px;
-}
-.location{
-    position: absolute;
-    top: 316px;
-    left: 350px
-  
-}
-.Post button{
-  position: absolute;
-width: 652px;
-height: 38px;
-left: 20px;
-top: 352px;
-
-background: #FFFFFF;
-border: 0.7px dashed #A9AEB8;
-box-sizing: border-box;
-border-radius: 8px;
-}
-.Post h10{
-  position: absolute;
-left: 630px;
-top: 430px;
-bottom: 16.51%;
-font-size: 14px;
-background: #EDEEF0;
-border-radius: 2px;
-}
-.Post h11{
-  position: absolute;
-left: 500.62px;
-top: 428px;
-bottom: 16.51%;
-font-size: 14px;
-}
-.Post2{
-  position: absolute;
-  width: 692px;
-  height: 472px;
-  left: 200px;
-  top: 1116px;
-  
-  background: #FFFFFF;
-  border: 1px solid #E0E0E0;
-  border-radius: 4px;
-}
-
-.Other1{
-  position: absolute;
-width: 692px;
-height: 490px;
-left: 200px;
-top: 1604px;
-
-background: #FFFFFF;
-border: 1px solid #E0E0E0;
-border-radius: 4px;
-}
-.Other2{
-  position: absolute;
-width: 692px;
-height: 269px;
-left: 200px;
-top: 2110px;
-
-background: #FFFFFF;
-border: 1px solid #E0E0E0;
-border-radius: 4px;
-}
- .Other2 h9{
-  font-size: 18px;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
-
-.Other2 h7
-{
-  position: absolute;
-  left: 20px;
-  top: 55px;
-  height: 3px;
-  font-weight: bolder;
-}
-.Other2 h10{
-  position: absolute;
-left: 630px;
-top: 218px;
-bottom: 16.51%;
-font-size: 14px;
-background: #EDEEF0;
-border-radius: 2px;
-}
-.Other2 h11{
-  position: absolute;
-left: 500.62px;
-top: 216px;
-bottom: 16.51%;
-font-size: 14px;
-}
-.jobdate{
-  position: absolute;
-  top: 97px;
-  left: 44px;
-}
-.joblocation{
-    position: absolute;
-    top: 97px;
-    left: 350px
-  
-}
-.Other2 button{
-  position: absolute;
-width: 652px;
-height: 38px;
-left: 20px;
-top: 133px;
-
-background: #FFFFFF;
-border: 0.7px dashed #A9AEB8;
-box-sizing: border-box;
-border-radius: 8px;
-}
-.Other2 span{
-  position: absolute;
-width: 200px;
-height: 24px;
-left: 20px;
-top: 213px;
-font-size: 18px;
+font-size: 16px;
 line-height: 23px;
+color: #FFFFFF;
 }
-
 .Introinner{
-  position: absolute;
-width: 1440px;
+width: 100%;
 height: 440px;
 left: 0px;
-top: 0.1%;
 background: url(./images/Rectangle2.png);
 background-repeat:no-repeat ;
 background-size: 100% 100%;
@@ -486,135 +69,297 @@ background-size: 100% 100%;
 width: 378px;
 height: 47px;
 left: 13.8%;
-top: 286px;
-bottom: 107px;
+top: 358px;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 47px;
 color: #FFFFFF;
 }
-.mainlocation{
+.writepost{
   position: absolute;
-left: 1000.75px;
-right: 8.33%;
-top: 657.5px;
-}
-
-small{
-  position: absolute;
-left: 1000.75px;
-right: 8.33%;
-top: 719.33px;
-bottom: 8.33%;
-border-bottom: solid 0.6px gray;
-}
-.dropdown{
-  position: absolute;
-left: 635px;
-right: 21px;
-top: 274px;
-bottom: -8.33%;
-width: 32px;
-font-size: 5px;
-}
-.jobd{
-  position: absolute;
-left: 635px;
-right: 21px;
-top: 67.67px;
-bottom: -8.33%;
-width: 32px;
-font-size: 5px;
-}
-.Introinner h3{
-  position: absolute;
-width: 340px;
-height: 23px;
-left: 13.8%;
-
-top: 337px;
-bottom: 80px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-color: #FFFFFF;
-}
-nav{
-  position: absolute;
-  top: 559px;
-  left: 13.8%;
-  right: 55.5%;
-  width: 1000px;
-}
-.activeitem{
-  border-bottom: solid black 0.8px;
+width: 9.2%;
+height: 36px;
+left: 67%;
 }
 .joinbutton{
   position: absolute;
-width: 125px;
+width: 9.6%;
 height: 36px;
-left: 899px;
+left: 77.4%;
 }
-/* .joinbutton p{
+.navbar-brand{
+  border-bottom: solid black 0.7%;
+}
+.mainlocation{
   position: absolute;
-width: 75px;
-height: 20px;
-left: 1153px;
-top: 590px;
-} */
-.user{
-  position: relative;
-  left: -40.58px;
-  right: 0%;
-  top: 2%;
+left:69.4%;
+right: 8.33%;
+top: 657.5px;
+}
+small{
+  position: absolute;
+left:69.4%;
+right: 8.33%;
+top: 719.33px;
+border-bottom: solid 0.6px gray;
+}
 
-  
-}
-.joinbutton p{
+.Post1{
   position: absolute;
-  left: 30.9%;
-  top: 12%;
-  
-}
-.writepost{
-  position: absolute;
-width: 133px;
-height: 36px;
-left: 750px;
-background: #EDEEF0;
+height: 472px;
+left: 1.38%;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
 border-radius: 4px;
-}
-.postarrow{
-  position: absolute;
-  height: 10px;
-  width: 5px;
-  top:10px;
-  left: 111.42px;
-}
-@media only screen and (max-width: 768px) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
+  .Post2{
+    position: absolute;
+top: 1200px;
+  height: 472px;
+  left: 1.38%;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .Post  h9{
+    font-size: 18px;
+    position: absolute;
+    left: 1.38%;
   }
-  to {
-    transform: rotate(360deg);
+  .Post  h7
+  {
+    position: absolute;
+    left: 1.38%;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  .Post p{
+    position: absolute;
+    left: 1.38%;
+    top: 66%;
+    font-size: 22px;
+    color:#5C5C5C;
+  }
+  .Post span{
+    position: absolute;
+  left: 1.38%;
+  font-size: 18px;
+  top: 85%;
+  }
+  .date{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+  }
+  .location{
+      position: absolute;
+      top: 60%;
+      left: 35%;
+    
+  }
+  .Post button{
+    position: absolute;
+  left: 1.38%;
+  background: #FFFFFF;
+  border: 0.7px dashed #A9AEB8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  top: 68%;
+  width: 80%;
+  }
+
+  .Post h10{
+    position: absolute;
+  left: 63.75%;
+  top: 88%;
+  font-size: 14px;
+  background: #EDEEF0;
+  border-radius: 2px;
+  }
+  .Post h11{
+    position: absolute;
+    left: 67.75%;
+    top: 88%;
+  font-size: 14px;
+  }
+ 
+  
+  .Other1{
+    position: absolute;
+  height: 490px;
+  left: 1.38%;
+  top: 1700px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  }
+  .Other2{
+    position: absolute;
+  height: 300px;
+  left: 1.38%;
+  top: 2300px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  }
+  .Other2 h9{
+    position: absolute;
+    top:5%;
+    left: 1.68%;
+  }
+  .Other2 h7{
+    position: absolute;
+    top:12%;
+    left: 1.68%;
+  }
+  .Other2 h10{
+    position: absolute;
+    left: 63.75%;
+    top: 88%;
+  font-size: 14px;
+  background: #EDEEF0;
+  border-radius: 2px;
+  }
+  .Other2 h11{
+    position: absolute;
+    left: 67.75%;
+    top: 88%;
+  font-size: 14px;
+  }
+  .jobdate{
+    position: absolute;
+    top: 27%;
+    left: 1.68%;
+  }
+  .joblocation{
+      position: absolute;
+      top: 27%;
+      left: 48%;
+      height: 300px;
+    
+  }
+  .Other2 button{
+    position: absolute;
+  left: 1.68%;
+  top: 55%;
+  background: #FFFFFF;
+  border: 0.7px dashed #A9AEB8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  }
+  .Other2 span{
+    position: absolute;
+  left: 1.68%;
+  top: 78%;
+  font-size: 18px;
+  }
+  .dropdown{
+    position: absolute;
+  left: 85%;
+  top: 49%;
+  font-size: 5px;
+  background-color: white;
+  }
+  .acctitle{
+    font-weight: bolder;
+  }
+  .accp{
+    margin-left: 19%;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .acch{
+    color: #2F6CE5;
+    
+  }
+  input{
+    width: 55%;
+    height: 46px;
+    background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px 2px 0px 0px;
+  }
+  .grpbtn{
+    margin-top: 10px;
+    width: 60%;
+height: 40px;
+
+background: #2F6CE5;
+border-radius: 20px;
+  }
+  .fbbtn {
+    margin-top: 10px;
+    width: 60%;
+height: 40px;
+border-radius: 20px;
+  }
+  .gbtn{
+    margin-top: 10px;
+    width: 60%;
+height: 40px;
+border-radius: 20px;
+  }
+  .tc{ 
+font-style: normal;
+font-size: 11px;
+  }
+  .forgot{
+font-style: normal;
+font-weight: bolder;
+font-size: 12px;
+margin-top: 5%;
+margin-left: 15%;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+  }
+  .accbg{
+    position: absolute;
+  width: 30%; 
+  height: 270px;
+  left: 70%;
+  top: 10px;
+  }
+ 
+  
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .mainlocation { display: none; }   /* hide it elsewhere */
+  small{display: none;}
+  .joinbutton{
+    position: absolute;
+    top: 10%;
+    width: 140px;
+    left: 60%;
+    border: white solid 0.6px;
+    background: transparent;
+  }
+  .joinbutton:hover {
+    background-color:rgb(54, 53, 53);
+    color: white;
+    border: white solid 0.6px;
+  }
+  .writepost{display: none;}
+  .navbar-brand{display: none;}
+   .one{position:absolute; top: 0; left: 85%;padding: 0;border: none;}
+   
+   .button5{
+     display:inherit;
+    position: fixed;
+    bottom: 20px;
+    left: 90%;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    width: 54px;
+height: 54px;
+text-align: center;
+  }.accbg{
+    display: none;
   }
 }

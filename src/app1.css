@@ -1,0 +1,204 @@
+*{
+    font-family: IBM Plex Sans;
+  }
+  .app{
+    position: absolute;
+  width: 1440px;
+  height: 2477px;
+  }
+  .Header
+  {
+    position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  }
+  .cname{
+    position: absolute;
+    left: 3%;
+    top: 25.17px;
+  }
+  /* .letterdot{
+    position: absolute;
+    left: 6%;
+    top: 10%;
+  }  */
+  .searchbutton{
+    position: absolute;
+  width: 360px;
+  height: 42px;
+  left: 540px;
+  top: 16px;
+  border: 0px;
+  background: #F2F2F2;
+  border-radius: 21px;
+  }
+  .search{
+    position: absolute;
+  left: 16.75px;
+  
+  top: 13.22px;
+  
+  }
+  .account{
+    position: absolute;
+  width: 25%;
+  height: 3%;
+  left: 80.625%;
+  top: 33%;
+  font-style: normal;
+  font-size: 16px;
+  color: #2E2E2E;
+  }
+  .account button{
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+    background-color: white;
+  }
+  .headarrow{
+    height: 1%;
+    width: 5px;
+    position: absolute;
+    left: 190px;
+    top:12px;
+  }
+  .Intro{
+    position: absolute;
+  width: 1440px;
+  height: 440px;
+  left: 0px;
+  top: 72px;
+  
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%); 
+  }
+  
+  .Introinner h2{
+    position: absolute;
+  width: 378px;
+  height: 47px;
+  left: 13.8%;
+  top: 286px;
+  bottom: 107px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #FFFFFF;
+  }
+  .mainlocation{
+    position: absolute;
+  left: 1000.75px;
+  right: 8.33%;
+  top: 657.5px;
+  }
+  
+  small{
+    position: absolute;
+  left: 1000.75px;
+  right: 8.33%;
+  top: 719.33px;
+  bottom: 8.33%;
+  border-bottom: solid 0.6px gray;
+  }
+  .dropdown{
+    position: absolute;
+  left: 635px;
+  right: 21px;
+  top: 274px;
+  bottom: -8.33%;
+  width: 32px;
+  font-size: 5px;
+  }
+  .jobd{
+    position: absolute;
+  left: 635px;
+  right: 21px;
+  top: 67.67px;
+  bottom: -8.33%;
+  width: 32px;
+  font-size: 5px;
+  }
+  .Introinner h3{
+    position: absolute;
+  width: 340px;
+  height: 23px;
+  left: 13.8%;
+  
+  top: 337px;
+  bottom: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  }
+  nav{
+    position: absolute;
+    top: 559px;
+    left: 13.8%;
+    right: 55.5%;
+    width: 1000px;
+  }
+  
+  /* .joinbutton p{
+    position: absolute;
+  width: 75px;
+  height: 20px;
+  left: 1153px;
+  top: 590px;
+  } */
+  .user{
+    position: relative;
+    left: -40.58px;
+    right: 0%;
+    top: 2%;
+  
+    
+  }
+  /* .joinbutton p{
+    position: absolute;
+    left: 30.9%;
+    top: 12%;
+    
+  } */
+  
+  /* .postarrow{
+    position: absolute;
+    height: 10px;
+    width: 5px;
+    top:10px;
+    left: 111.42px;
+  } */
+  @media only screen and (max-width: 768px) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* ................. */
+
+ 
